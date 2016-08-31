@@ -1,0 +1,105 @@
+/* IMPORTANT add these styles to the bottom of the existing alums-inner.css stylesheet */
+
+h3.sidebarHeader {
+    margin-bottom: 1em;
+    clear: both;
+}
+.aside ul {
+    margin-bottom: 2em
+}
+.aside .button.gift {
+    margin-bottom: 2em;
+    display: inline-block;
+}
+.aside .button.gift a {
+    color: white;
+}
+.familiesContactTable {
+    width: 100%;
+}
+.familiesContactTable tr:nth-of-type(odd) {
+    background-color: #e7f5fb;
+}
+.lettertofamilies {
+    padding: 2em;
+    border: 1px solid #dfe1bc;
+}
+.content-body .figure {
+    /* margin: 0; */
+}
+iframe.instagram-media {
+    width: 50%;
+    float: right;
+    margin: 0 0 2em 2em;
+}
+.importantDates {
+    padding: 1em;
+    background-color: #fafdce;
+    border: 1px solid #b3c51d;
+}
+.importantDates .sidebarHeader {
+    margin-top: 0;
+}
+.loginFamilies,
+.registerFamilies {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 5%;
+    margin: 0 0 1em;
+    float: left;
+}
+.registerFamilies {
+    border-right: 1px solid #dfe1bc;
+}
+.registerFamilies_button,
+.loginFamilies_button {
+    margin: 1em 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.registerFamilies_button--button,
+.registerLogin_button--button {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .25em;
+    color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    background-color: #2489CF;
+    border-radius: 4px;
+}
+.registerFamilies_button--button:hover,
+.registerLogin_button--button:hover {
+    background-color: #000;
+}
+.loginTrouble {
+    clear: left;
+    padding: 0 5% 2em;
+}
+.loginTrouble strong {
+    display: block;
+}
+embed,object,video {
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+	max-width: 100%;
+	_width: 100%
+}
+.u-Video-families {
+	height: 0;
+	margin: 1.5em 0;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 56.25%
+}
+.u-Video-families iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+}

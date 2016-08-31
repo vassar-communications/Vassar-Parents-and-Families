@@ -1,0 +1,426 @@
+@import url(/s/resources/css/appstyles.css);
+@import url(/s/resources/fonts/fontawesome-curr/css/font-awesome.css);
+
+/* General Style
+---------------------------------------------*/
+.left{float:left;}
+.right{float:right;}
+.center{text-align:center;}
+.textalignright{text-align:right;}
+.textalignleft{text-align:left;}
+
+hr{height:1px;line-height:1px;margin:8px 3px;clear:both;border:none;background:#333;color:#333;}
+
+img.left{float:left;margin:0 7px 1px 0;}
+img.right{float:right;margin:0 0 7px 7px;}
+img.outline{border:4px solid #333;}
+
+.PageTitleHeader,
+.PageTitleHeader b {font-weight:bold;}
+
+.clearing{clear:both;height:0;margin:0;padding:0;line-height:0;margin-top:-7px;}
+.clearBoth{clear:both;}
+.clearRight{clear:right;}
+.clearLeft{clear:left;}
+.invisibleButAccessible{display:none;}
+
+.idbmsBreadcrumbSeparator {color:#70a533!important;}
+div[id*="pnlBreadcrumbs"] { padding:25px 0; }
+.expand img {background: none!important;width:18px!important;height:18px!important; display:block!important;}
+.expand {background: none!important;width:18px!important;height:18px!important; display:block;}
+.Error,.error {width:auto!important}
+
+img[src="/images/icons/v2/common/brick_edit.gif"],
+img[src="/images/icons/v2/common/delete.gif"],
+img[src="/images/icons/v2/common/arrow_out.gif"],
+img[src="/images/e.gif"],
+img[src="/images/spacer.gif"],
+img[src="/images/icons/v2/bomb.png"] {border:0!important; padding:0!important; margin:0!important; float:none!important; width:16px!important; height:16px!important}
+
+img[src="/images/spacer.gif"] {display:inline;}
+.content-body-aside #ContentMiddle img[src="/images/spacer.gif"] {display:none;}
+
+::selection { background: #0066CC; color: #fff; } /* Safari 3.1+, Opera 9.5+, Chrome 2+ */
+::-moz-selection { background: #0066CC; color: #fff; } /* Mozilla Firefox */
+
+.idbmsBreadcrumbActive {font-size:1em;}
+
+
+/* HEAD ELEMENTS
+---------------------------------------------*/
+.header {padding-bottom:5px;}
+/*#ContentSearch {font-size: 0.8em; left: auto; margin-top: -24px; right: 0; top: 0; width: 17.4em;position: absolute; z-index:2;}*/
+
+.search-form {margin-top:21px; margin-right:3%;}
+
+.login-container {float:right;}
+#ContentMemberTools {padding-top:5px;}
+#ContentMemberTools ul {list-style:none;margin:0;padding:0;float:right;}
+#ContentMemberTools li {float:left;padding:0 0px 0 20px;}
+#ContentMemberTools li:first-child {}
+#ContentMemberTools a {display:block;float:left;}
+
+
+/* MAIN TOP HORIZONTAL NAV
+---------------------------------------------*/
+
+/* LEFT COLUMN
+---------------------------------------------*/
+.nav ul {margin-top:0;}
+.navigation li.highlight {background:none!important; color:inherit!important;}
+.navigation #nav3 {display:none;}
+.navigation .highlight #nav3 {display:block;background:none;}
+
+/* BODY ELEMENTS
+---------------------------------------------*/
+#ContentMiddle {clear:both;}
+#ulEventCenterMenu {padding:0;}
+ul.imod-cms-menu li, imod-cms-menu-li {list-style:none;}
+#ContentMiddle img {display:initial; padding:0;}
+table[id*='_bpEditLayout'] {left:0!important; background:#fff;}
+
+able td > input,
+table td > select {margin:0 10px 0px 0;}
+
+table td > input[type="checkbox"] {margin-bottom:0;display:inline; float:none;}
+
+table.ContactUs {width:100%;}
+table.ContactUs td {padding-right:15px; padding-bottom:15px;}
+table.ContactUs td select {padding:6px;}
+table.ContactUs td:first-child {width:20%;}
+table.ContactUs td:last-child {width:80%;}
+table.ContactUs td input[type="submit"] {float:none;}
+table.ContactUs tr:last-child td {text-align:right;}
+
+.EventsHeader * {-moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; vertical-align:middle;}
+
+
+.ProfileTitleHeader {display:none;}
+
+input#cid_400_btnCancel_pnlAddEditClassifieds,
+input#cid_277_btnCancel_pnlAddEditNote {float:left; margin:0;}
+
+#cid_277_pnlAddEditNote td[align="right"],
+table.Events td[align="right"],
+#cid_405_pnlSearch td[align="right"],
+#cid_41_pnlSearchCore td[align="right"],
+#cid_283_pnlSearch td[align="right"]{vertical-align:top; padding-right:10px;}
+#cid_277_pnlAddEditNote td[align="right"] + td,
+table.Events td[align="right"] + td,
+#cid_405_pnlSearch td[align="right"] + td,
+#cid_41_pnlSearchCore td[align="right"] + td,
+#cid_283_pnlSearch td[align="right"] + td {padding-bottom:20px;}
+#cid_277_pnlAddEditNote td select,
+table.Events td select,
+#cid_405_pnlSearch td select,
+#cid_283_pnlSearch td select,
+#cid_41_pnlSearchCore td select {float:left; padding:6px;}
+#cid_277_pnlAddEditNote td select[multiple="multiple"],
+table.Events td select[multiple="multiple"],
+#cid_405_pnlSearch td select[multiple="multiple"],
+#cid_283_pnlSearch td select[multiple="multiple"],
+#cid_41_pnlSearchCore td select[multiple="multiple"] {max-width:70%;}
+/*#cid_405_pnlSearch td span span,*/
+#cid_41_pnlSearchCore td span span {line-height:normal;float:left; width:25%; padding-top:15px;}
+
+#cid_283_pnlResults,
+#cid_283_pnlHeaderButtons {float:left; width:100%;}
+.DataGridItem > td,
+.DataGridAltItem > td {padding:10px;}
+
+input.button[type="submit"] {margin-left:5px;}
+
+table.GridContainer,
+table#tblResults {width:100%;}
+table.GridContainer {padding:20px 0; clear:both; display:block;}
+
+#cid_41_SearchGUI_ctl01 {display:none;}
+
+#AddNewTab table td {width:100%; display:block;}
+
+#ContentMiddle .imod_RichPanelGenericMain {height:auto!important;}
+#ContentMiddle .WidgetContainer {padding:5px 10px;}
+#ContentMiddle .WidgetContainer table {padding:5px 0;}
+#ContentMiddle .WidgetContainer table td {padding-right:15px;vertical-align:top;}
+#ContentMiddle .imod_RichPanelGenericHeader {font-weight:bold; background:#e7f5fb; font-size:1em;height:auto;}
+#ContentMiddle .imod_RichPanelGenericTitle_td { padding:5px 10px;}
+#ContentMiddle .imod_RichPanelGenericTitle {font-family:inherit; font-size:1em;margin:0;}
+
+#ContentMiddle table.EventsHeader,
+#ContentMiddle td.EventsHeader,
+#ContentMiddle table span.EventsHeader,
+#ContentMiddle .imod_formItemWrapper .EventsHeader, 
+#ContentMiddle .imod_fieldWrapper .EventsHeader {font-weight:bold; background:#e7f5fb; border:1px solid #ddd; font-size:1em; padding:5px 10px;}
+.imod_fieldWrapper .imod_fieldInput.idbmsFieldControlCol3 {width:100%;}
+
+table#cid_735_ctl00_dgClassifieds {width:100%; display:block;clear:both;}
+
+#directoryLegend {width:100%;}
+#directoryLegend th {padding:3px 0px 3px 10px; }
+#directoryLegend th strong {font-weight:bold; text-transform:uppercase;}
+#directoryLegend td {padding:3px 0px 3px 10px; vertical-align:middle;}
+#directoryLegend td img {display:block;}
+
+#pnlCategories td {padding:10px 0;}
+#pnlCategories td.idbmsInstanceColumnLabel { padding-right:15px;}
+#pnlCategories td.idbmsInstanceColumnLabel input[type="checkbox"] {margin:0 5px 0 0;display:inline; float:none;}
+
+input[type="submit"] {margin-left: 5px;}
+
+input#cid_400_btnCancel_pnlPreviewClassifieds,
+input#cid_277_btnCancel_pnlPreviewNote {float:none;}
+div.ControlWindow {width:215px!important;}
+#AddObjectionNote textarea {width:200px;}
+div.ControlWindow img {display:inline;}
+
+.IMOD95 #rg_pnlPageHeader {display:none;}
+
+#ContentMiddle .RadGrid_WebBlue .rgRow a, 
+#ContentMiddle .RadGrid_WebBlue .rgAltRow a, 
+#ContentMiddle .RadGrid_WebBlue .rgEditRow a, 
+#ContentMiddle .RadGrid_WebBlue .rgFooter a, 
+#ContentMiddle .RadGrid_WebBlue .rgEditForm a {color:#2489CF;}
+
+/* Social buttons */
+#divSocialButtons ul li.fb-like-button {margin-top:-7px;}
+
+/* classifieds */
+#cid_405_dgClassifieds td:last-child,
+#cid_405_dgClassifieds th:last-child {display:none;}
+#cid_405_dgClassifieds th,
+#cid_405_dgClassifieds td {padding:6px; white-space:inherit!important;}
+#cid_405_dgClassifieds th {vertical-align:middle; font-weight:bold; font-size:15px;}
+#cid_405_dgClassifieds td:first-child {padding-left:0;}
+/*input#cid_405_btnSearch {display:none;}*/
+#cid_405_dgClassifieds .GridPager td {display:block;}
+/*.GridPager:before {
+ content: 'Page';
+ float: left;
+ padding-right:10px;
+ padding-top:10px;
+}*/
+
+
+/* Class Notes and Classfieds Search */
+div[id$="pnlAddEditNote"] th,
+div[id$="pnlAddEditClassifieds"] th {background:none; padding-right:10px; vertical-align:top;}
+div[id$="pnlAddEditNote"] input,
+div[id$="pnlAddEditClassifieds"] input,
+div[id$="pnlAddEditNote"] select,
+div[id$="pnlAddEditClassifieds"] select,
+div[id$="pnlAddEditNote"] textarea,
+div[id$="pnlAddEditClassifieds"] textarea {margin-bottom:15px}
+
+/* first time register */
+tr.DataGridHeader {border:none;}
+table#cid_46_dgResults {width:100%; position:relative; padding-bottom:50px;}
+table#cid_46_dgResults th {position:relative;}
+table#cid_46_dgResults td {padding-right:2%; position:static;}
+table#cid_46_dgResults th {text-align:center; vertical-align:middle; font-weight:bold; font-size:0.85em; padding-top:5px; padding-bottom:5px;}
+table#cid_46_dgResults tr.DataGridFooter td {padding-bottom:20px;}
+#cid_46_pnlResults input.button[type="submit"] {width:auto!important; position:absolute; bottom:0; right:0;z-index:900;}
+.login-password-popup-box {font-size:14px;}
+.login-password-popup-box .login-password-strength-box {width:95px; line-height:16px;}
+.login-password-strength-box .security-graph-level-0 {width:95px;}
+.login-password-strength-box .security-graph-level-1,
+.login-password-strength-box .security-graph-level-2,
+.login-password-strength-box .security-graph-level-3,
+.login-password-strength-box .security-graph-level-4,
+.login-password-strength-box .security-graph-level-5 {width:84px;}
+
+/* member email */
+#cid_62_pnlBodyMain {}
+#cid_62_pnlBodyMain td {padding:0 15px 15px 0;}
+#cid_62_btnCancel {float:left;}
+
+/* stacked checkbox field */
+.imod_fieldWrapper .imod_fieldInput .imod-series-field-list > span > span {display:table;padding:10px 0 0;}
+.imod_fieldWrapper .imod_fieldInput .imod-series-field-list > span > span + br {display:none;}
+.imod_fieldWrapper .imod_fieldInput .imod-series-field-list input[type="checkbox"] {display:table-cell; margin:5px 0 0;}
+.imod_fieldWrapper .imod_fieldInput .imod-series-field-list label {display:table-cell;padding:0 0 0 10px;}
+
+/* unsubscribe */
+.divCommunityOptOut {float:left; width:100%; padding-top:30px;margin:0!important;}
+#cid_51_pnlAreYouSure input.button {float:none;}
+/*#cid_51_pnlAreYouSure input#cid_51_btnNext_pnlAreYouSure {float:right;}*/
+
+#rg_pnlPageHeader > span.PageTitleHeader { font-family: adelle,serif; font-style: normal; font-size:1.1em; margin:0;}
+#ContentMiddle .idbmsBreadcrumbActive {font-size:1em;}
+
+/* general events forms */
+#divButtons {text-align:right;}
+#divButtons input.button {float:none;}
+.content-body .imod-guest-list li {list-style-image:none;}
+.loggedin .imod_eventDetails {padding-bottom:150px}
+
+/* Profile page */
+#ContentMiddle .imod-toggle-switch input, 
+#ContentMiddle .imod-toggle-switch button, 
+#ContentMiddle .imod-toggle-switch a, 
+#contentMiddle .imod-toggle-switch a:visited {color:#fff;background:#ccc; border-radius: 0.25em; font-size:14px; font-weight:500;padding: 6px 10px;border:none; margin:0 0 0 5px; width:48%;}
+#ContentMiddle .imod-toggle-switch input.selected, 
+#ContentMiddle .imod-toggle-switch button.selected, 
+#ContentMiddle .imod-toggle-switch a.selected {background:#2489cf;}
+
+#ContentMiddle .imod-profile-form-buttons input.imod-profile-button, 
+#ContentMiddle .imod-profile-form-buttons button.imod-profile-button {width:auto !important; background:#2489cf !important; font-size:0.75em; line-height:1em; margin-top:6px;}
+#ContentMiddle .imod-profile-step-opened .imod-profile-form-buttons button.imod-profile-button,
+#ContentMiddle .imod-profile-step-opened .imod-profile-form-buttons input.imod-profile-button {background:#444 !important}
+#ContentMiddle .imod-profile-step-closed .imod-profile-step-icon-open,
+#ContentMiddle .imod-profile-step-opened .imod-profile-step-icon-close {line-height:1.4em;}
+
+#ContentMiddle .imod-profile-step-header {background: #e7f5fb; color:#000;}
+#ContentMiddle .imod-profile-step-header:hover {background:#bddbf1; color:#000}
+#ContentMiddle .imod-profile-step-opened .imod-profile-step-header {background:#2489cf; color:#fff}
+#ContentMiddle div.imod-profile-header {background:none; padding:0;}
+#ContentMiddle div.imod-profile-header span {display:none;background-color:#e3e3e3; padding:10px; }
+#ContentMiddle div.imod-profile-header span[ng-bind-html="viewModel.Verbiage.DonationHistoryActivePaymentsLabel"],
+#ContentMiddle div.imod-profile-header span[ng-bind-html="viewModel.Verbiage.DonationHistoryPastPaymentsLabel"],
+#ContentMiddle div.imod-profile-header span[ng-bind-html="viewModel.Verbiage.UpcomingEvents"], 
+#ContentMiddle div.imod-profile-header span[ng-bind-html="viewModel.Verbiage.PastEvents"], 
+#ContentMiddle div.imod-profile-header span[ng-bind-html="viewModel.Verbiage.MembershipHistoryHeader"] {display:block;}
+.IMOD98 #ContentMiddle div.imod-profile-header {display:block;}
+#ContentMiddle div.imod-profile-fields ul li {padding:7px 10px !important;}
+.login-password-strength-text {font-size:0.85em;}
+.login-password-strength-text h3 { margin-top: 7px;}
+#ContentMiddle div.login-password-strength-text ul {background:none; padding-left:10px!important;}
+#ContentMiddle div.login-password-strength-text ul li {background: none;border: none; display: block;float: none;padding:2px 0 !important;}
+#ContentMiddle div.login-password-strength-text ul li::before {content:"•"; padding-right:10px;}
+#ContentMiddle .ng-scope,
+#ContentMiddle .imod-profile-wrapper {list-style-image:none;}
+.imod-profile-lower-nav > .ng-binding {font-weight:600}
+.imod-profile-payment-history button {color:#5bafe4; font:500 100%/1.4 proxima-nova, sans-serif;}
+.imod-profile-payment-history button:hover {color:#0f334d}
+.imod-profile-payment-history .imod-profile-data span.ng-scope {display:block;}
+
+div.imod-profile-mode-edit ul li .imod-profile-field-visibility {position:absolute; top:10px; right:10px;}
+#ContentMiddle div.imod-profile-fields ul li div.imod-profile-field-data select {width:95%;}
+
+/* Edit profile page */
+#ContentMiddle div.imod-light-switch-on {background:#2489cf;}
+#ContentMiddle div.imod-profile-edit-form-buttons input, #ContentMiddle div.imod-profile-edit-form-buttons button {float:none; color:#fff;background:#2489cf; border-radius: 0.25em; font-size:14px; font-weight:500;padding: 6px 10px;}
+#ContentMiddle div.imod-profile-wrapper {width:100%;}
+#ContentMiddle .ng-scope div.imod-profile-wrapper {width:75%;}
+
+#ContentMiddle div.imod-profile-edit-form-buttons a {color:inherit;}
+#ContentMiddle div.imod-profile-mode-edit div.imod-profile-edit-form-buttons {background:#e7f5fb;}
+
+/* first time login */
+.IMOD98 #ContentMiddle .imod-profile-step-opened .imod-profile-step-header {display:none;}
+.IMOD98 #ContentMiddle div.imod-profile-mode-edit div.imod-profile-edit-form-buttons {background:none;}
+
+/* Send page to a friend */
+.IMOD246 span[id$="Preview"] {display:block; text-align:left; padding-right:10px;}
+.IMOD246 span[id*="Preview"] td {padding-right:10px;}
+.IMOD246 #ContentMiddle img[src="/images/icons/add_friend.gif"] {display:inline;}
+.IMOD246 #ContentMiddle img[src='/images/icons/icon_required.gif'] {display:inline; padding-right:10px;}
+.IMOD246 #ContentMiddle img[src='/images/icons/cancel.gif'] {display:inline;} 
+#tdAddAnother > span,
+.IMOD246 a[id="hrefAddAnother2"],
+.IMOD246 a[title="Cancel"] {width:16px; display:inline-block;}
+.IMOD246 input[id*="FriendEmail"] {width:155px !important;}
+#divFriendList table {width:auto !important;}
+
+#ContentMiddle div.imod-series-field-list {width:90%;}
+#ContentMiddle .imod_fieldWrapper.label70 .imod_fieldLabel {width:67%;}
+
+#updateEmailForm th {background:none; padding-right:10px;}
+#updateEmailForm td {padding:0 0 10px;}
+
+/* RIGHT COLUMN
+---------------------------------------------*/
+
+/* Footer Elements 
+---------------------------------------------*/
+.footer .org strong {font: 100 1em adelle,serif,serif; text-transform: none;}
+.footer strong { font-weight: normal;}
+
+
+/*directory search results styling*/
+.layout3 .imod-directory-memberInfo.column1{width:50%; font-size:16px;}
+.layout3 .imod-directory-memberInfo.column2{width:25%; font-size:16px;}
+.layout3 .imod-directory-member-social.column3{width:20%;}
+.imod-directory-memberInfo .name{font-weight:700; color:#000;}
+.imod-directory-memberInfo .maiden{font-weight:400; color:#999;}
+.imod-directory-result-wrapper .imod-profile-thumbnail a{padding:0;}
+
+@media only screen and (max-width:1160px){
+	.layout3 .imod-directory-memberInfo.column1{width:65%;}
+	.layout3 .imod-directory-memberInfo.column2{width:35%;}
+	.layout3 .imod-directory-member-social.column3{width:100%;}
+}
+@media only screen and (max-width:700px){
+	.layout3 .imod-directory-memberInfo.column1{width:100%;}
+	.layout3 .imod-directory-memberInfo.column2{width:100%;}
+}
+
+/*
+---------------------------------------------
+---------------------------------------------
+   MEDIA QUERIES
+---------------------------------------------
+---------------------------------------------
+*/
+
+/* =============================================================================
+   Desktop Only
+   ========================================================================== */
+
+@media only screen and (min-width: 1001px){
+/* Styles */
+	
+
+}
+
+/* =============================================================================
+   768px Grid
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1001px){
+/* Styles */
+}
+
+/* =============================================================================
+   Less than 768px / iPhone landscape / android portrait
+   ========================================================================== */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	
+}
+
+/* =============================================================================
+   480px / iphone landscape
+   ========================================================================== */
+@media only screen and (max-width: 767px) {
+/* Styles */
+
+#cid_46_pnlResults input.button[type="submit"] {position:relative;}
+
+
+}
+
+/* =============================================================================
+   Less than 480px / iphone portrait
+   ========================================================================== */
+@media only screen and (max-width: 641px) {
+   #ContentMiddle .ng-scope div.imod-profile-wrapper {width:100%;}
+ }
+ 
+@media only screen and (max-width: 519px) {
+/* Styles */
+
+/*#ContentSearch {margin:0; left:0; top:1em;width:65%;}
+#ContentSearch iframe { height:44px;width:100%;}*/
+
+.search-form  {margin:0 0 0 3%;}
+
+#ContentMemberTools {padding:0;}
+#ContentMemberTools a {float:right; float:right; margin-bottom:2px;}
+
+}
+
+/* =============================================================================
+   Retina Display 
+   ========================================================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}

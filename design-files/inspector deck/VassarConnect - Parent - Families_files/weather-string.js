@@ -1,0 +1,1 @@
+var dateTimeStamp = '7/14, 3:00 pm', currentTemperatureF = 89, currentCondition = 'fair';
